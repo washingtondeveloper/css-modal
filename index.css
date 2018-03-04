@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.4);
+
+	display: none;			
+}
+
+input {
+	border: 1px solid #ccc;
+	padding: 9px 10px;
+	border-radius: 4px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.modalContainer {
+	width: 555px;
+	margin: 100px auto;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.modalHeader {
+	padding: 5px 20px;
+	background-color: blue;
+	color: #fff;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.modalBody {
+	padding: 20px;
+}
+
+button {
+	padding: 10px 15px;
+	margin: 0px 10px 0px 0px;
+	background-color: transparent;
+	border-radius: 4px;			
+	width: 120px;
+}
+
+button.danger {
+	color: red;
+	border: 1px solid red;
+}
+
+button.danger:hover {
+	background-color: red;
+	color: #fff;
+}
+
+button.primary {
+	color: blue;
+	border: 1px solid blue;
+}
+
+button.primary:hover {
+	background-color: blue;
+	color: #fff;
+}
